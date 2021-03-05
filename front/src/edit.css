@@ -1,0 +1,31 @@
+.text-task1 {
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-right: -1%;
+  font-size: 20pt;
+  width: 41vw;
+  word-wrap: break-word;
+}
+
+.textEdit {
+  width: 48vw;
+  display: flex;
+  align-items: center;
+}
+
+.done {
+  background-color: green;
+  border: none;
+  border-radius: 1px;
+}
+
+.checkbox {
+  width: 40px;
+  height: 40px;
+  margin-top: 1.5%;
+} 
+
+.buttonEdit {  
+  padding-left: 1vw;
+  display: flex;
+}
