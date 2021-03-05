@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import axios from 'axios';
 import './edit.css';
-
 function Edit ({tasks, value, index, edit}) {
   const [text, setText] = useState(value.text);
 
@@ -10,7 +9,6 @@ function Edit ({tasks, value, index, edit}) {
   }
 
   const doneTasks = async(index) => {
-
     await axios.patch('http://localhost:8000/updateTask', {
       id: tasks[index].id,
       text: text,
@@ -19,7 +17,6 @@ function Edit ({tasks, value, index, edit}) {
     edit(-1);
   }
 
-  
   const EditIsCheck = async(index) => {
     tasks[index].isCheck=!tasks[index].isCheck;
     await axios.patch('http://localhost:8000/updateTask', {

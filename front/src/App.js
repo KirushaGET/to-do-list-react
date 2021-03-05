@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NoEdit from './NoEdit';
 import Edit from './edit';
-
 function App() {
 
   const [tasks, setTasks] = useState([]);
@@ -17,7 +16,7 @@ function App() {
   })
 
   const addNewTask  = async () => {
-    if(text !== ''){
+    if(text !== '') {
     await axios.post('http://localhost:8000/createTask', {
       text,
       isCheck: false

@@ -20,10 +20,10 @@ body {
 
 .contentPage {
   padding-right: 50px;
-  overflow-y:auto;
+  overflow-y: auto;
   height: 36.5vw;
   margin-top: 5%;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
 .inputTop {
@@ -41,12 +41,6 @@ body {
   height: 15%;
 }
 
-.checkbox {
-  width:40px;
-  height:40px;
-  margin-top: 1.5%;
-} 
-
 .head {
   align-items: center;
   display: flex;
@@ -56,7 +50,7 @@ body {
 
 @media (max-width: 1300px) {
   .all {
-    width:70%;
+    width: 70%;
     margin-left: 10%;
   }
   body {
@@ -66,7 +60,7 @@ body {
 
 @media (max-width: 1000px) {
   .all {
-    width:70%;
+    width: 70%;
     margin-left: 15%;
   }
   body {
@@ -76,29 +70,29 @@ body {
 
 @media (max-width: 768px) {
   .all {
-    width:80%;
+    width: 80%;
     margin-left: 5%;
   }
   body {
     background-size: cover;
   }
   .checkbox {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     margin-top: 1.5%;
   } 
 }
 
 @media (max-width: 576px) {
   .all {
-    width:90vw;
+    width: 90vw;
   }
   body {
     background-size: cover;
   }
   .checkbox {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
     margin-top: 1.5%;
   } 
   ::placeholder {

@@ -1,10 +1,10 @@
 .text-task1 {
   margin-left: 1%;
-  margin-top:1%;
+  margin-top: 1%;
   margin-right: -1%;
   font-size: 20pt;
   width: 41vw;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 .textEdit {
@@ -20,8 +20,8 @@
 }
 
 .checkbox {
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
   margin-top: 1.5%;
 } 
 

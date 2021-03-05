@@ -1,11 +1,11 @@
 .checkbox {
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
   margin-top: 1.5%;
 } 
 
 .text-task {
-  margin:1%;
+  margin: 1%;
   margin-right: -1%;
   font-size: 20pt;
   width: 41vw;
@@ -13,7 +13,7 @@
 }
 
 .text-task-done {
-  margin:1%;
+  margin: 1%;
   margin-right: -1%;
   font-size: 20pt;
   width: 41vw;

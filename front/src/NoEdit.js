@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import axios from 'axios';
 import './NoEdit.css';
-
 function NoEdit ({tasks, value, index, edit}) {
 
   const deleteTasks = async(index) => {
