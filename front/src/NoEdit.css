@@ -1,0 +1,33 @@
+.checkbox {
+  width:40px;
+  height:40px;
+  margin-top: 1.5%;
+} 
+
+.text-task {
+  margin:1%;
+  margin-right: -1%;
+  font-size: 20pt;
+  width: 41vw;
+  word-wrap:break-word;
+}
+
+.text-task-done {
+  margin:1%;
+  margin-right: -1%;
+  font-size: 20pt;
+  width: 41vw;
+  word-wrap:break-word;
+  text-decoration: line-through;
+  border-radius: 13px;
+  color:rgb(255, 255, 255, 0.5);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.button {   
+  padding-left: 1vw;
+}
